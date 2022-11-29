@@ -164,27 +164,27 @@
         method="POST">
             <div class="row g-3 justify-content-center my-2">
                 <div class="col-3">
-                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
+                  <input type="text" name="fname" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
                 </div>
                 <div class="col-3">
-                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" required>
+                  <input type="text" name="lname" class="form-control" placeholder="Apellido" aria-label="Last name" required>
                 </div>
             </div>
             <div class="row g-3 justify-content-center my-2">
                 <div class="col-6">
                     <label for="formControlInput" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="formControlInput" placeholder="nombre@ejemplo.com" required>
+                    <input type="email" name="email" class="form-control" id="formControlInput" placeholder="nombre@ejemplo.com" required>
                   </div>
                 </div>
                 <div class="row g-3 justify-content-center my-2">
                     <div class="col-6">
                       <label for="textArea" class="form-label">Mensaje</label>
-                      <textarea class="form-control" id="textArea" rows="5" placeholder="Tu mensaje va aqui..." required></textarea>
+                      <textarea class="form-control" name="message" id="textArea" rows="5" placeholder="Tu mensaje va aqui..." required></textarea>
                     </div>
                 </div>
             <div class="row text-center">
                 <div class="col">
-                    <input class="btn btn-success px-5" type="submit" value="Enviar" >
+                    <input class="btn btn-success px-5" name='submit' type="submit" value="Enviar" >
                 </div>
             </div>
         </form>
